@@ -1,0 +1,124 @@
+body{
+    overflow-x: hidden;
+}
+.header{
+    background-color: midnightblue;
+    transition: ease-in;
+}
+
+
+.nav{
+    position: sticky;
+    top: 0;
+    background-color: rgb(255, 255, 255);
+    height: 70px;
+    width: 1480px;
+    padding-left: 40px;
+    display: flex;
+    box-shadow: 2px 1px 6px black;
+    position: sticky;
+   
+}
+.back{
+    background-image: url(BACK5.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 1520px;
+    height: 630px;
+    z-index: -1;
+    position: absolute;
+
+}
+.nav2{
+    padding-left:30PX;
+    padding-right: 30px;
+    padding-top: 25px;
+    height: 49px;
+    text-decoration: none;
+}
+
+.nav2:hover{
+    transition:cubic-bezier(0.165, 0.84, 0.44, 1);
+    transition-duration: 1s;
+    background-color: #252525;
+    color:aliceblue ;
+    justify-items: center;
+    height: 47px;
+    margin-top: 10px;
+    box-shadow: 1px 1px 66px rgb(255, 255, 255);
+}
+.shop{
+    text-decoration: none;
+    font-family: 'Brush Script MT', cursive;
+    background-color: slategrey;
+    color: #252525;
+    padding-left: 35px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    margin-left: 1060px;
+    margin-top: 400px;
+    margin-right: 330px;
+    font-size: larger;
+    box-sizing: border-box;
+    border: 2px inset black;
+    outline: 5px outset white;
+    border-radius: 19px;
+    text-decoration: none;
+}
+.dec{
+    text-decoration: none;
+}
+.shop:hover{
+    transition: ease;
+    transition-duration: 2s;
+    background-color: rgb(248, 252, 251);
+    color: #252525;
+    border: 2px inset slategray;
+    outline: 5px outset rgb(93, 165, 174);
+    padding-top: 4px;
+    padding-bottom: 4px;
+    box-sizing: border-box;
+    box-shadow: 2px 5px 30px black;
+}
+.drop{
+    text-decoration: none;
+}
+/*.drop:hover .drop1{
+    display: block;
+    z-index: 1;
+    position: fixed;
+   
+}
+.drop1{
+    display: none ;
+    margin-left: -400px;
+    margin-top: 30px;
+    box-sizing: border-box;
+    border: 1px solid #252525;
+    background-color:aqua;
+
+}
+.search_bar{
+    padding-left: 500px;
+    padding-top: 25px;
+    box-sizing: border-box;
+    border: none;
+    
+}*/
+input[type=text]:first-child{
+    width: 200px;
+    font-size: 20px;
+    margin-left: 400px;
+    padding-left: 40px;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    margin-top: 20px;
+    box-sizing: border-box;
+    border: none;
+    border-bottom: 2px solid #252525;
+    background-image: url(search_icon.png);
+    background-repeat: no-repeat;
+    background-size:20px;    
+    background-position: 10px 10px;
+    font-family: 'Brush Script MT', cursive;
+}
